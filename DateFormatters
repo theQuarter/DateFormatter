@@ -1,0 +1,14 @@
+class DateFormatters {
+  DateFormat yMD = DateFormat('yyyy-MM-dd');
+  DateFormat mD = DateFormat('dd - MMMM');
+  DateFormat hMA = DateFormat('hh:mm a');
+  DateFormat hMs = DateFormat('hh:mm:ss');
+  DateFormat dMy = DateFormat('dd MMM yyyy');
+  DateFormat dMyDash = DateFormat('dd-MM-yyyy');
+  DateFormat dMonthYear = DateFormat('dd MMMMM yyyy');
+  DateFormat dateTime = DateFormat('dd MMM yyyy, hh:mm a');
+  DateFormat dayDate = DateFormat('EEE, dd MMM yyyy');
+  DateFormat day = DateFormat('EEE');
+  DateFormat month = DateFormat('MMMM');
+  DateFormat date = DateFormat('dd');
+}
